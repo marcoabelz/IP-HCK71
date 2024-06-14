@@ -3,7 +3,6 @@
 import { useState } from "react";
 import axios from "../utils/axios";
 import { useNavigate, Link } from "react-router-dom";
-import { Button, Label, TextInput } from "flowbite-react";
 
 export function Register() {
   const navigate = useNavigate();
