@@ -46,6 +46,7 @@ class PhotoControllers {
           RoomId: id,
         });
       }
+      res.status(200).json({ message: "Photos uploaded!" });
     } catch (error) {
       next(error);
     }

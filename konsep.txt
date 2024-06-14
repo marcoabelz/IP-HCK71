@@ -1,0 +1,42 @@
+website : sistem booking penginapan
+
+API : Midtrans, Cloudinary
+
+Mantine (buat disable tanggal)
+
+Page: 
+    Login / Register
+    Homepage
+    Detail Page
+    Edit detail page
+    Kumpulan foto2 kamar
+    Upload foto kamar
+    Booking
+    Payment
+    List booking
+
+Table:
+    - Users
+        -id int (PK)
+        -Full Name string (required)
+        -Age int (required)
+        -Phone Number string (required)
+
+    - Rooms
+        -id int (PK)
+        -name string (required)
+        -price int (required)
+        -description string (required)
+
+    - Photos
+        -id int (PK)
+        -imgUrl string (required)
+
+        -RoomId int (FK to Rooms)
+
+    - Books
+        -id int (PK)
+        -status bool (required)
+
+        -UserId int (FK to Users)
+        -RoomsId int (FK to Rooms)

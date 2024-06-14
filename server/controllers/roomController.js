@@ -7,9 +7,6 @@ class RoomController {
         include: {
           model: Photo,
         },
-        where: {
-          availability: true,
-        },
       });
       res.status(200).json(data);
     } catch (error) {

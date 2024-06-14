@@ -5,13 +5,9 @@ module.exports = function errorHandler(err, req, res, next) {
   // console.log(err.name);
 
   switch (err.name) {
-    case "InvalidInputEmail":
+    case "InvalidInputLogin":
       status = 400;
-      message = "email is required";
-      break;
-    case "InvalidInputPass":
-      status = 400;
-      message = "password is required";
+      message = "email / password is required";
       break;
     case "InvalidLogin":
       status = 401;
@@ -57,6 +53,11 @@ module.exports = function errorHandler(err, req, res, next) {
     case "Not Login":
       status = 401;
       message = "Please Login!";
+      break;
+
+    case "EmptyPassword":
+      status = 400;
+      message = "Password is required!";
       break;
   }
   res.status(status).json({ message });

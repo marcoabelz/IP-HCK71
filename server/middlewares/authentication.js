@@ -24,6 +24,9 @@ module.exports = async function authentication(req, res, next) {
     req.user = {
       id: user.id,
       role: user.role,
+      email: user.email,
+      fullName: user.fullName,
+      phoneNumber: user.phoneNumber,
     };
     next();
   } catch (error) {

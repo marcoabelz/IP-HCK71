@@ -15,6 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Booking.init(
     {
+      orderId: DataTypes.STRING,
       paid: DataTypes.BOOLEAN,
       grandTotal: DataTypes.INTEGER,
       UserId: DataTypes.INTEGER,
