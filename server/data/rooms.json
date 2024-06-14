@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Omah Cilik Batu",
+    "price": 500000,
+    "description": "Omah cilik dengan konsep bebatuan alam",
+    "availability": true
+  },
+  {
+    "name": "Omah Cilik Bata",
+    "price": 500000,
+    "description": "Omah cilik dengan konsep batu bata",
+    "availability": true
+  },
+  {
+    "name": "Omah Cilik Kayu",
+    "price": 500000,
+    "description": "Omah cilik dengan konsep kayu alam",
+    "availability": true
+  },
+  {
+    "name": "Omah Cilik Modern",
+    "price": 500000,
+    "description": "Omah cilik dengan konsep modern",
+    "availability": true
+  },
+  {
+    "name": "Mezzanine Batu",
+    "price": 900000,
+    "description": "Mezzanine dengan konsep batu alam",
+    "availability": true
+  },
+  {
+    "name": "Mezzanine Kayu",
+    "price": 1100000,
+    "description": "Mezzanine dengan konsep kayu",
+    "availability": true
+  },
+  {
+    "name": "Mezzanine Modern",
+    "price": 1100000,
+    "description": "Mezzanine dengan konsep modern 2024",
+    "availability": true
+  },
+  {
+    "name": "Glamping Mountain",
+    "price": 2000000,
+    "description": "Glamping dengan view gunung Merapi",
+    "availability": true
+  },
+  {
+    "name": "Pendopo",
+    "price": 1000000,
+    "description": "Ruang pendopo dengan konsep interior jawa",
+    "availability": true
+  }
+]
