@@ -51,6 +51,7 @@ export function DetailRoom() {
             },
           }
         );
+        getData();
       },
       // onPending: function (result) {
       //   /* You may add your own implementation here */
